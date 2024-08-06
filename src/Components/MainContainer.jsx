@@ -30,7 +30,7 @@ const MainContainer = () => {
     <div className="flex justify-start lg:ml-24 xl:ml-36 md:px-8 md:w-full lg:w-1/2">
       <div className="flex flex-col items-center lg:items-start mt-4 md:mt-16 px-4 md:px-1 ">
         <div className=" text-3xl md:text-5xl lg:text-6xl text-gray-100 font-bold"> Hi, I am</div>
-        <div className="text-3xl md:text-5xl lg:text-6xl mt-1 md:mt-3 text-gray-100 font-bold"> Monish S</div>
+        <div className="text-3xl md:text-5xl lg:text-6xl mt-1 md:mt-3 text-gray-100 font-bold">SURINENI SATHVIK TEJA</div>
         <div className="text-xl md:text-4xl my-2 md:my-6 text-gray-100 flex">I am a  
         <span className="text-primary flex text-bold text-red-600 px-3">
           
