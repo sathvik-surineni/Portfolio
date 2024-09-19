@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/home-main.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-
+import HeroBgAnimation from "./HeroBgAnimation";
+import './Home.css';
 function Home() {
   return (
     <section>
@@ -22,7 +23,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> Sathvik Teja Surineni</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -30,14 +31,20 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
+            <Col md={5}>
+  {/* Background Animation */}
+  <div className="z-0">
+    <HeroBgAnimation />
+  </div>
+  <div className="hero-container">
+      <div className="gradient-background"></div>
+      <img
+  src={homeLogo}
+  className="hero-image"
+  alt="" // No description needed for decorative images
+/>
+    </div>
+</Col>
           </Row>
         </Container>
       </Container>

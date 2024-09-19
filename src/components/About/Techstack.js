@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import {
+  SiC,
+} from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -11,58 +13,58 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiHtml5,
+  SiCss3,
+  SiBootstrap,
+  SiExpress,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* Programming Languages */}
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiC />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiPython title="Python" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiJava title="Java" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiJavascript1 title="JavaScript" />
+      </Col>
+
+      {/* Front-end Web Development */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 title="HTML" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiCss3 title="CSS" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiBootstrap title="Bootstrap" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiReact title="React" />
+      </Col>
+
+      {/* Back-end Web Development */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs title="Node.js" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiExpress title="Express.js" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiMongodb title="MongoDB" />
       </Col>
+
+      {/* Version Control */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiGit title="Git" />
       </Col>
     </Row>
   );
