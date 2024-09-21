@@ -6,6 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import HeroBgAnimation from "./HeroBgAnimation";
 import './Home.css';
+import ContactUs from "../ContactUs/ContactUs";
 function Home() {
   return (
     <section>
@@ -49,6 +50,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <ContactUs/>
     </section>
   );
 }

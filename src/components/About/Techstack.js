@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiC,
-} from "react-icons/si";
+import { SiC } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -19,52 +17,63 @@ import {
   SiExpress,
 } from "react-icons/si";
 
-
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {/* Programming Languages */}
       <Col xs={4} md={2} className="tech-icons">
         <SiC />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>C</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython title="Python" />
+        <DiPython />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>Python</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava title="Java" />
+        <DiJava />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>Java</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 title="JavaScript" />
+        <DiJavascript1 />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>JavaScript</p>
       </Col>
 
       {/* Front-end Web Development */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 title="HTML" />
+        <SiHtml5 />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>HTML</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCss3 title="CSS" />
+        <SiCss3 />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>CSS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap title="Bootstrap" />
+        <SiBootstrap />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>Bootstrap</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact title="React" />
+        <DiReact />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>React</p>
       </Col>
 
       {/* Back-end Web Development */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs title="Node.js" />
+        <DiNodejs />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>Node.js</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiExpress title="Express.js" />
+        <SiExpress />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>Express.js</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb title="MongoDB" />
+        <DiMongodb />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>MongoDB</p>
       </Col>
 
       {/* Version Control */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit title="Git" />
+        <DiGit />
+        <p style={{ marginTop: "10px", fontSize: "0.2em" }}>Git</p>
       </Col>
     </Row>
   );
